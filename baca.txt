@@ -1,7 +1,7 @@
 Tools Auto exploit Inject Lokomedia
 $apt install git
 $apt install python
-$git clone https://github.com/archive-code/autolokmed
+$git clone https://github.com/archive-code/auto-lokmed
 $cd autolokmed
 $python auto.py
 Masukan domain target yang vuln sql lokomedia tanpa http ataupun https hanya domainnya saja dan akan muncul yaitu username dan password dengan username | password
