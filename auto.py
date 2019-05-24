@@ -41,10 +41,8 @@ if 'http' not in urls:
     urls = 'http://'+urls
 listadmin = input("Masukkan list tambahan:")
 print ("==============================================================")
-listone1 = get("https://pastebin.com/raw/Vkqv0FJy") 
-listone2 = BeautifulSoup(listone1.text, 'html.parser')
-listone = listone2.text
-adminList = [listone,listadmin]
+
+adminList = ['admin','adm','administrator','redaktur','adminweb','webadmin','s-admin','g-admin','adminpage',listadmin]
 for admin in adminList:
     try:
         urli = urls+'/'+admin
